@@ -15,6 +15,7 @@
 		3F37F96D236ABD82004F6D22 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F96C236ABD82004F6D22 /* CustomCalloutView.m */; };
 		3F37F970236ABE8E004F6D22 /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F96F236ABE8E004F6D22 /* ClusterAnnotationView.m */; };
 		3F37F976236AC904004F6D22 /* DaoHangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F975236AC904004F6D22 /* DaoHangVC.m */; };
+		3F40AC3D245815B10039304B /* ZZMTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F40AC3C245815B10039304B /* ZZMTestVC.m */; };
 		3F9601EF2359578F00C3F92A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9601EE2359578F00C3F92A /* AppDelegate.m */; };
 		3F9601F22359578F00C3F92A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9601F12359578F00C3F92A /* SceneDelegate.m */; };
 		3F9601F52359578F00C3F92A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9601F42359578F00C3F92A /* ViewController.m */; };
@@ -62,6 +63,8 @@
 		3F37F96F236ABE8E004F6D22 /* ClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
 		3F37F974236AC904004F6D22 /* DaoHangVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaoHangVC.h; sourceTree = "<group>"; };
 		3F37F975236AC904004F6D22 /* DaoHangVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoHangVC.m; sourceTree = "<group>"; };
+		3F40AC3B245815B10039304B /* ZZMTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMTestVC.h; sourceTree = "<group>"; };
+		3F40AC3C245815B10039304B /* ZZMTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMTestVC.m; sourceTree = "<group>"; };
 		3F9601EA2359578F00C3F92A /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9601ED2359578F00C3F92A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F9601EE2359578F00C3F92A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -207,6 +210,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3F40AC3A2458157F0039304B /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				3F40AC3B245815B10039304B /* ZZMTestVC.h */,
+				3F40AC3C245815B10039304B /* ZZMTestVC.m */,
+			);
+			path = "测试";
+			sourceTree = "<group>";
+		};
 		3F9601E12359578F00C3F92A = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +291,7 @@
 		3F96021223595B2B00C3F92A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F40AC3A2458157F0039304B /* 测试 */,
 				3FCE41332435F1CE00191503 /* 订单详情 */,
 				3FC2098523BDC3C900568B87 /* 线路规划 */,
 				3FC2089923BC989B00568B87 /* 时时导航 */,
@@ -694,6 +707,7 @@
 				3FCE413B2435F33500191503 /* ZMScrollView.m in Sources */,
 				3F37F960236ABA8F004F6D22 /* DianJuHeVC.m in Sources */,
 				3F9601F22359578F00C3F92A /* SceneDelegate.m in Sources */,
+				3F40AC3D245815B10039304B /* ZZMTestVC.m in Sources */,
 				3F9601FB2359578F00C3F92A /* MapDemo.xcdatamodeld in Sources */,
 				3FC2089D23BC98C100568B87 /* ShiShiDaHangVC.m in Sources */,
 				3F96021F23595C9700C3F92A /* HomeModel.m in Sources */,
