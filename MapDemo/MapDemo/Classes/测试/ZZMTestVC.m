@@ -16,8 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"hello word ");
 
+
+
+    NSLog(@"zzm 1234");
+    NSLog(@"zzm");
 }
 
 /*
