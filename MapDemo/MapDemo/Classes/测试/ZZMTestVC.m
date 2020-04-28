@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"zzm 123");
+    NSLog(@"zzm 1234");
+    NSLog(@"zzm");
 }
 
 /*
